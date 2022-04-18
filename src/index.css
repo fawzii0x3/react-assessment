@@ -1,3 +1,21 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+:root {
+    --brandColorPrimary: #1b31a8;
+    --blueGray100: #cbd5dc;
+    --blueGray300: #8a9ca9;
+}
+.brandColor {
+    color: var(--brandColorPrimary);
+}
+.bgbrandColor {
+    background-color: var(--brandColorPrimary);
+}
+.blueGray100 {
+    color: var(--blueGray100);
+}
+
+.blueGray300 {
+    color: var(--blueGray300);
+}
